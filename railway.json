@@ -1,0 +1,8 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "uv run main.py --transport streamable-http --tool-tier core"
+  }
+}
