@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "uv run main.py --transport streamable-http --tool-tier core --port $PORT"
+
+[[services]]
+name = "google-workspace-mcp"
